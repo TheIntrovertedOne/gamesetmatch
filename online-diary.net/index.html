@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang=”en”>
+
+<head>
+
+<meta charset=”UTF-8">
+
+<meta name=”viewport” content=”width=device-width, initial-scale=1.0">
+
+<title>Run Python Script</title>
+
+</head>
+
+<body>
+
+<button onclick=”runPythonScript()”>Run Python Script</button>
+
+<script>
+
+function runPythonScript() {
+
+//Code to run Python script goes here
+
+}
+
+</script>
+
+</body>
+
+</html>
+
+<script>
+
+function runPythonScript() {
+
+var xhr = new XMLHttpRequest();
+
+xhr.open(“GET”, “run_script.py”, true);
+
+xhr.send();
+
+}
+
+</script>
